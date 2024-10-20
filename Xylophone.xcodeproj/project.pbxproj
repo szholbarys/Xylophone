@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E86CB3802CC5878A0054793D /* XylophoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86CB37F2CC5878A0054793D /* XylophoneView.swift */; };
 		E87790F22CC57BE500AA466D /* XylophoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87790F12CC57BE500AA466D /* XylophoneApp.swift */; };
 		E87790F42CC57BE500AA466D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87790F32CC57BE500AA466D /* ContentView.swift */; };
 		E87790F62CC57BE600AA466D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87790F52CC57BE600AA466D /* Assets.xcassets */; };
 		E87790F92CC57BE600AA466D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87790F82CC57BE600AA466D /* Preview Assets.xcassets */; };
+		E87791002CC57C3D00AA466D /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87790FF2CC57C3D00AA466D /* XylophoneViewController.swift */; };
+		E87791082CC580DA00AA466D /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = E87791012CC580D900AA466D /* F.wav */; };
+		E87791092CC580DA00AA466D /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = E87791022CC580DA00AA466D /* A.wav */; };
+		E877910A2CC580DA00AA466D /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = E87791032CC580DA00AA466D /* G.wav */; };
+		E877910B2CC580DA00AA466D /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = E87791042CC580DA00AA466D /* C.wav */; };
+		E877910C2CC580DA00AA466D /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = E87791052CC580DA00AA466D /* B.wav */; };
+		E877910D2CC580DA00AA466D /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = E87791062CC580DA00AA466D /* D.wav */; };
+		E877910E2CC580DA00AA466D /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = E87791072CC580DA00AA466D /* E.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E86CB37F2CC5878A0054793D /* XylophoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneView.swift; sourceTree = "<group>"; };
 		E87790EE2CC57BE500AA466D /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87790F12CC57BE500AA466D /* XylophoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneApp.swift; sourceTree = "<group>"; };
 		E87790F32CC57BE500AA466D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E87790F52CC57BE600AA466D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87790F82CC57BE600AA466D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E87790FF2CC57C3D00AA466D /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
+		E87791012CC580D900AA466D /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F.wav; path = ../../../../../../../Downloads/Sounds/F.wav; sourceTree = "<group>"; };
+		E87791022CC580DA00AA466D /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A.wav; path = ../../../../../../../Downloads/Sounds/A.wav; sourceTree = "<group>"; };
+		E87791032CC580DA00AA466D /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G.wav; path = ../../../../../../../Downloads/Sounds/G.wav; sourceTree = "<group>"; };
+		E87791042CC580DA00AA466D /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C.wav; path = ../../../../../../../Downloads/Sounds/C.wav; sourceTree = "<group>"; };
+		E87791052CC580DA00AA466D /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = ../../../../../../../Downloads/Sounds/B.wav; sourceTree = "<group>"; };
+		E87791062CC580DA00AA466D /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = ../../../../../../../Downloads/Sounds/D.wav; sourceTree = "<group>"; };
+		E87791072CC580DA00AA466D /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E.wav; path = ../../../../../../../Downloads/Sounds/E.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				E87790F12CC57BE500AA466D /* XylophoneApp.swift */,
+				E86CB37F2CC5878A0054793D /* XylophoneView.swift */,
 				E87790F32CC57BE500AA466D /* ContentView.swift */,
+				E87790FF2CC57C3D00AA466D /* XylophoneViewController.swift */,
 				E87790F52CC57BE600AA466D /* Assets.xcassets */,
 				E87790F72CC57BE600AA466D /* Preview Content */,
+				E87791022CC580DA00AA466D /* A.wav */,
+				E87791052CC580DA00AA466D /* B.wav */,
+				E87791042CC580DA00AA466D /* C.wav */,
+				E87791062CC580DA00AA466D /* D.wav */,
+				E87791072CC580DA00AA466D /* E.wav */,
+				E87791012CC580D900AA466D /* F.wav */,
+				E87791032CC580DA00AA466D /* G.wav */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
@@ -125,7 +152,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E877910B2CC580DA00AA466D /* C.wav in Resources */,
+				E87791082CC580DA00AA466D /* F.wav in Resources */,
+				E877910A2CC580DA00AA466D /* G.wav in Resources */,
+				E877910C2CC580DA00AA466D /* B.wav in Resources */,
 				E87790F92CC57BE600AA466D /* Preview Assets.xcassets in Resources */,
+				E877910D2CC580DA00AA466D /* D.wav in Resources */,
+				E877910E2CC580DA00AA466D /* E.wav in Resources */,
+				E87791092CC580DA00AA466D /* A.wav in Resources */,
 				E87790F62CC57BE600AA466D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +171,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87791002CC57C3D00AA466D /* XylophoneViewController.swift in Sources */,
+				E86CB3802CC5878A0054793D /* XylophoneView.swift in Sources */,
 				E87790F42CC57BE500AA466D /* ContentView.swift in Sources */,
 				E87790F22CC57BE500AA466D /* XylophoneApp.swift in Sources */,
 			);
